@@ -1,56 +1,81 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-contract escrow{
-address public escrowagent;
-address private buyer;
-address payable private seller;
-uint public amount;
-bool sent =false;
-constructor(address _buyer,address payable _seller){
-   escrowagent=msg.sender;
-   buyer = _buyer;
-   seller=_seller;
-}
-modifier onlybuyer(){
-    require(msg.sender==buyer,"only buyer can do this");
-    _;
-}
-modifier onlyagent(){
-    require(msg.sender==escrowagent,"only escrowagent can do this");
-    _;
-}
-event deposited(address indexed buyer,uint amount);
-event released(address indexed seller,uint amount);
-event refunded(address indexed buyer,uint amount);
-function deposite()external payable onlybuyer {
-require(msg.value>0,"Must send ETH to deposit");
-require(!sent,"Funds already deposited");
 
-amount= msg.value;
-sent=true;
-emit deposited(msg.sender, msg.value);
-}
-function releasefunds()external onlyagent {
-    require(seller!=address(0),"check the seller address");
-    require(sent,"no money to release ");
-    uint releasedsmount=amount;
-    amount=0;
-    sent=false;
-    seller.transfer(amount);
-    emit released(seller, releasedsmount);
-   
-}
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-function refund()external onlyagent{
-    require(sent,"no money to refund ");
-  
-    uint transferedamount=amount;
-    amount=0;
-    sent=false;
-    payable(buyer).transfer(amount);
-    emit refunded(buyer, transferedamount);
+contract Escrow is ReentrancyGuard, Ownable(msg.sender) {
+    address public escrowAgent;
+    address private buyer;
+    address payable private seller;
+    uint256 private amount;
+    bool sent;
+
+    constructor(address _buyer, address payable _seller)  { // Ownable sets msg.sender as owner
+        escrowAgent = msg.sender; // The deployer is the initial escrow agent
+        buyer = _buyer;
+        seller = _seller;
+    }
+
+    modifier onlyBuyer() {
+        require(msg.sender == buyer, "Only buyer can do this");
+        _;
+    }
+
+    
+    
+
+    event Deposited(address indexed buyer, uint256 amount);
+    event Released(address indexed seller, uint256 amount);
+    event Refunded(address indexed buyer, uint256 amount);
+
+    function deposit() external payable onlyBuyer nonReentrant {
+        require(msg.value > 0, "Must send ETH to deposit");
+        require(!sent, "Funds already deposited");
+
+        amount = msg.value;
+        sent = true;
+        emit Deposited(msg.sender, msg.value);
+    }
+
+    function releaseFunds() external  nonReentrant onlyOwner {
+        require(seller != address(0), "Invalid seller address");
+        require(sent, "No money to release");
+
+        uint256 releasedAmount = amount;
+        sent = false;
+        amount = 0;
+
+        (bool success, ) = seller.call{value: releasedAmount}("");
+        require(success, "Transfer failed");
+
+        emit Released(seller, releasedAmount);
+    }
+
+    function refund() external  nonReentrant onlyOwner {
+        require(sent, "No money to refund");
+
+        uint256 refundedAmount = amount;
+        sent = false;
+        amount = 0;
+
+        (bool success, ) = buyer.call{value: refundedAmount}("");
+        require(success, "Refund failed");
+
+        emit Refunded(buyer, refundedAmount);
+    }
+
+    // Allows the owner to update the escrow agent
+    function changeEscrowAgent(address newAgent) external onlyOwner {
+        require(newAgent != address(0), "Invalid address");
+        escrowAgent = newAgent;
+    }
+
+    // Allows the owner to withdraw accidental ETH sent to contract
+    function withdraw() external onlyOwner {
+        require(address(this).balance > 0, "No funds to withdraw");
+
+        (bool success, ) = payable(owner()).call{value: address(this).balance}("");
+        require(success, "Withdraw failed");
+    }
 }
-
-
-}
-
