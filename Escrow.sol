@@ -22,9 +22,6 @@ contract Escrow is ReentrancyGuard, Ownable(msg.sender) {
         _;
     }
 
-    
-    
-
     event Deposited(address indexed buyer, uint256 amount);
     event Released(address indexed seller, uint256 amount);
     event Refunded(address indexed buyer, uint256 amount);
