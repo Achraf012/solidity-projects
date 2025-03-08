@@ -1,0 +1,18 @@
+[Error - 1:46:26 PM] [object Object]
+[Info  - 1:46:26 PM] 1
+initVersion
+latest
+[Info  - 1:46:35 PM] Validating using the compiler selected: remote
+[Info  - 1:46:35 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 1:46:35 PM] Validating using the compiler selected: remote
+[Info  - 1:46:35 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 1:46:35 PM] Validating using compiler selected version: latest
+[Info  - 1:46:36 PM] Validating using the compiler selected: remote
+[Info  - 1:46:36 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 1:46:36 PM] Validating using compiler selected version: latest
+[Info  - 1:46:44 PM] Validating using the compiler selected: remote
+[Info  - 1:46:44 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 1:46:44 PM] Validating using compiler selected version: latest
+[Info  - 2:08:07 PM] Validating using the compiler selected: remote
+[Info  - 2:08:07 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 2:08:07 PM] Validating using compiler selected version: latest

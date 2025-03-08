@@ -1,0 +1,25 @@
+2025-02-27 11:53:52.517 [info] 
+
+
+
+
+2025-02-27 11:53:52.549 [info] Extension host agent started.
+2025-02-27 11:53:52.818 [info] [127.0.0.1][545f068e][ManagementConnection] New connection established.
+2025-02-27 11:53:53.860 [info] [127.0.0.1][334373b9][ExtensionHostConnection] New connection established.
+2025-02-27 11:53:55.627 [info] [127.0.0.1][334373b9][ExtensionHostConnection] <965> Launched Extension Host Process.
+2025-02-27 11:54:05.862 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-02-27 11:54:10.242 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-02-27 12:26:29.820 [warning] No ptyHost heartbeat after 6 seconds
+2025-02-27 12:29:02.294 [info] [127.0.0.1][545f068e][ManagementConnection] The client has reconnected.
+2025-02-27 12:29:02.791 [info] [127.0.0.1][334373b9][ExtensionHostConnection] The client has reconnected.
+2025-02-27 16:25:22.869 [warning] No ptyHost heartbeat after 6 seconds
+2025-02-27 17:15:54.691 [info] [127.0.0.1][545f068e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-27 17:15:55.792 [info] [127.0.0.1][545f068e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-02-27 17:15:55.793 [info] [127.0.0.1][545f068e][ManagementConnection] The client has reconnected.
+2025-02-27 17:15:57.226 [info] [127.0.0.1][334373b9][ExtensionHostConnection] The client has reconnected.
+2025-02-27 20:07:57.056 [info] [127.0.0.1][545f068e][ManagementConnection] The client has reconnected.
+2025-02-27 20:07:57.436 [info] [127.0.0.1][334373b9][ExtensionHostConnection] The client has reconnected.
+2025-02-27 21:01:54.906 [info] [127.0.0.1][545f068e][ManagementConnection] The client has reconnected.
+2025-02-27 21:01:55.285 [info] [127.0.0.1][334373b9][ExtensionHostConnection] The client has reconnected.
+2025-02-27 21:20:09.084 [info] [127.0.0.1][545f068e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-27 21:20:10.311 [info] [127.0.0.1][334373b9][ExtensionHostConnection] <965> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,28 @@
+[Info  - 9:55:32 AM] Solidity by Nomic Foundation Starting ...
+[Info  - 9:55:33 AM] env: production
+[Info  - 9:55:37 AM] Client starting
+[Info  - 9:55:51 AM] Language server starting
+[Info  - 9:55:51 AM]   Release: hardhat-solidity@0.8.10
+[Info  - 9:55:51 AM]   Environment: production
+[Info  - 9:55:51 AM]   Telemetry Enabled: false
+[Info  - 9:55:51 AM]   Telemetry Tracking Id: 2b342df0ea...
+[Info  - 9:55:51 AM]   Workspace Folders:
+[Info  - 9:55:51 AM]     solidity-projects (file:///home/achraf/solidity-projects)
+[Info  - 9:55:51 AM] Fetching latest solidity versions
+[Info  - 9:55:52 AM] Language server ready
+[Info  - 9:55:54 AM] [indexing] Found projects:
+[Info  - 9:55:54 AM] [indexing] -  Type: Hardhat
+[Info  - 9:55:54 AM] [indexing]    Base path: /home/achraf/solidity-projects
+[Info  - 9:55:54 AM] [indexing]    Config file: /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 9:55:54 AM] [indexing] Initializing /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 9:55:59 AM] [solidity-projects] Local HRE loaded
+[Info  - 9:55:59 AM] [indexing] Done /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 9:55:59 AM] [indexing] Scanning workspace folders for sol files
+[Info  - 9:55:59 AM] [indexing] Scan complete, 196 sol files found
+[Info  - 9:56:05 AM] [indexing] Analyzing 2 solidity files
+[Info  - 11:20:51 AM] [solidity-projects] Config file changed. Restarting worker process.
+[Info  - 11:20:51 AM] [solidity-projects] Child process exited: null
+[Info  - 11:20:51 AM] [solidity-projects] Error loading HRE: Error: Cannot find module 'hardhat'
+Require stack:
+- /home/achraf/.vscode-server/extensions/nomicfoundation.hardhat-solidity-0.8.10/server/out/worker/WorkerProcess.js
+[Info  - 11:20:51 AM] [solidity-projects] Child process exited: 1

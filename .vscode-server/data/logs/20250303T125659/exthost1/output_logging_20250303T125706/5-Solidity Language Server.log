@@ -1,0 +1,13 @@
+[Error - 4:40:02 PM] [object Object]
+[Error - 4:40:02 PM] Notification handler 'workspace/didChangeConfiguration' failed with message: Cannot read properties of undefined (reading 'toString')
+[Info  - 4:40:35 PM] 1
+initVersion
+latest
+[Info  - 4:40:45 PM] Validating using the compiler selected: remote
+[Info  - 4:40:45 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 4:40:45 PM] Validating using the compiler selected: remote
+[Info  - 4:40:45 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 4:40:45 PM] Validating using compiler selected version: latest
+[Info  - 4:40:46 PM] Validating using the compiler selected: remote
+[Info  - 4:40:46 PM] Validating using compiler version: 0.8.28+commit.7893614a.Emscripten.clang
+[Info  - 4:40:46 PM] Validating using compiler selected version: latest

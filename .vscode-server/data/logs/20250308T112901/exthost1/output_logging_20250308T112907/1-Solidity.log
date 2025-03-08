@@ -1,0 +1,17 @@
+[Info  - 11:29:08 AM] Solidity by Nomic Foundation Starting ...
+[Info  - 11:29:08 AM] env: production
+[Info  - 11:29:09 AM] Client starting
+[Info  - 11:29:16 AM] Language server starting
+[Info  - 11:29:16 AM]   Release: hardhat-solidity@0.8.10
+[Info  - 11:29:16 AM]   Environment: production
+[Info  - 11:29:16 AM]   Telemetry Enabled: false
+[Info  - 11:29:16 AM]   Telemetry Tracking Id: 2b342df0ea...
+[Info  - 11:29:16 AM]   Workspace Folders:
+[Info  - 11:29:16 AM]     solidity-projects (file:///home/achraf/solidity-projects)
+[Info  - 11:29:16 AM] Fetching latest solidity versions
+[Info  - 11:29:16 AM] Language server ready
+[Info  - 11:29:16 AM] [indexing] Found projects:
+[Info  - 11:29:16 AM] [indexing] Scanning workspace folders for sol files
+[Info  - 11:29:16 AM] [indexing] Scan complete, 1 sol files found
+[Info  - 11:29:16 AM] [indexing] Analyzing 0 solidity files
+[Info  - 11:29:21 AM] Telemetry disabled

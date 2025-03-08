@@ -1,0 +1,23 @@
+0 verbose cli /home/achraf/.nvm/versions/node/v18.20.5/bin/node /home/achraf/.nvm/versions/node/v18.20.5/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v18.20.5
+3 silly config load:file:/home/achraf/.nvm/versions/node/v18.20.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/achraf/solidity-projects/.npmrc
+5 silly config load:file:/home/achraf/.npmrc
+6 silly config load:file:/home/achraf/.nvm/versions/node/v18.20.5/etc/npmrc
+7 verbose title npm exec hardhat test
+8 verbose argv "exec" "--" "hardhat" "test"
+9 verbose logfile logs-max:10 dir:/home/achraf/.npm/_logs/2025-03-08T10_38_14_042Z-
+10 verbose logfile /home/achraf/.npm/_logs/2025-03-08T10_38_14_042Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2073559040 maxSize:518389760 maxEntrySize:259194880
+14 http fetch GET 200 https://registry.npmjs.org/hardhat 1308ms (cache updated)
+15 silly packumentCache heap:2073559040 maxSize:518389760 maxEntrySize:259194880
+16 silly packumentCache heap:2073559040 maxSize:518389760 maxEntrySize:259194880
+17 verbose cwd /home/achraf/solidity-projects
+18 verbose os Linux 5.15.167.4-microsoft-standard-WSL2
+19 verbose node v18.20.5
+20 verbose npm  v10.9.2
+21 verbose exit 1
+22 verbose code 1

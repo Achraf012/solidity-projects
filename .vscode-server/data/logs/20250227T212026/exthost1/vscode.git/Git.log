@@ -1,0 +1,32 @@
+2025-02-27 21:20:38.269 [info] [main] Log level: Info
+2025-02-27 21:20:38.269 [info] [main] Validating found git in: "git"
+2025-02-27 21:20:38.269 [info] [main] Using git "2.43.0" from "git"
+2025-02-27 21:20:38.269 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-27 21:20:38.269 [info] > git rev-parse --show-toplevel [1708ms]
+2025-02-27 21:20:38.272 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2025-02-27 21:20:38.377 [info] [Model][openRepository] Opened repository: /home/achraf
+2025-02-27 21:20:38.491 [info] > git rev-parse --show-toplevel [12ms]
+2025-02-27 21:20:38.493 [info] > git config --get commit.template [29ms]
+2025-02-27 21:20:38.521 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-27 21:20:38.528 [info] > git rev-parse --show-toplevel [25ms]
+2025-02-27 21:20:38.536 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-27 21:20:38.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2025-02-27 21:20:38.547 [warning] [Git][getBranch] No such branch: master
+2025-02-27 21:20:38.622 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2025-02-27 21:20:38.772 [info] > git status -z -uall [192ms]
+2025-02-27 21:20:38.773 [info] > git show --textconv :solidity-projects/jsExo.js [40ms]
+2025-02-27 21:20:38.819 [info] > git ls-files --stage -- /home/achraf/solidity-projects/jsExo.js [62ms]
+2025-02-27 21:20:40.683 [info] > git check-ignore -v -z --stdin [1413ms]
+2025-02-27 21:20:40.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1497ms]
+2025-02-27 21:20:40.687 [warning] [Git][getBranch] No such branch: master
+2025-02-27 21:20:40.689 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-27 21:20:40.693 [info] > git hash-object -t tree /dev/null [1865ms]
+2025-02-27 21:20:40.694 [warning] [GitFileSystemProvider][stat] File not found - git:/home/achraf/solidity-projects/jsExo.js.git?%7B%22path%22%3A%22%2Fhome%2Fachraf%2Fsolidity-projects%2FjsExo.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-27 21:20:40.702 [info] > git hash-object -t tree /dev/null [1903ms]
+2025-02-27 21:20:40.702 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/achraf/solidity-projects/jsExo.js.git?%7B%22path%22%3A%22%2Fhome%2Fachraf%2Fsolidity-projects%2FjsExo.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-27 21:20:40.916 [info] > git config --get commit.template [265ms]
+2025-02-27 21:20:40.934 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-27 21:20:40.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2025-02-27 21:20:40.953 [warning] [Git][getBranch] No such branch: master
+2025-02-27 21:20:41.001 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-02-27 21:20:41.329 [info] > git status -z -uall [359ms]

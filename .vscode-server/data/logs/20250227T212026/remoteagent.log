@@ -1,0 +1,10 @@
+2025-02-27 21:20:26.888 [info] 
+
+
+
+
+2025-02-27 21:20:26.931 [info] Extension host agent started.
+2025-02-27 21:20:27.334 [info] [127.0.0.1][da0e0952][ManagementConnection] New connection established.
+2025-02-27 21:20:28.977 [info] [127.0.0.1][5096f304][ExtensionHostConnection] New connection established.
+2025-02-27 21:20:30.906 [info] [127.0.0.1][5096f304][ExtensionHostConnection] <11152> Launched Extension Host Process.
+2025-02-27 21:20:33.355 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 

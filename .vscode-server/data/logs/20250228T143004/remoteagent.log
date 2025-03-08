@@ -1,0 +1,40 @@
+2025-02-28 14:30:05.034 [info] 
+
+
+
+
+2025-02-28 14:30:05.088 [info] Extension host agent started.
+2025-02-28 14:30:05.449 [info] [127.0.0.1][e3db1f5a][ManagementConnection] New connection established.
+2025-02-28 14:30:06.422 [info] [127.0.0.1][5aa1de21][ExtensionHostConnection] New connection established.
+2025-02-28 14:30:07.579 [info] [127.0.0.1][5aa1de21][ExtensionHostConnection] <948> Launched Extension Host Process.
+2025-02-28 14:30:08.523 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-02-28 14:30:24.768 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/achraf/.vscode-server/data/logs/20250213T112405/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/achraf)
+2025-02-28 14:30:24.769 [error] [File Watcher (universal)] inotify_add_watch on '/home/achraf/.vscode-server/data/logs/20250213T112405/exthost1/vscode.github' failed: No such file or directory
+2025-02-28 14:47:50.122 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/achraf/solidity-projects)
+2025-02-28 14:50:42.255 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.256 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.256 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.257 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.260 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.269 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.270 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.272 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.273 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.288 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.289 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.291 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.295 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.296 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.297 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.434 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.785 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:42.984 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-28 14:50:44.324 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/achraf/node_modules)
+2025-02-28 14:50:44.802 [error] [File Watcher] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/achraf/node_modules)
+2025-02-28 16:32:28.268 [info] [127.0.0.1][e3db1f5a][ManagementConnection] The client has reconnected.
+2025-02-28 16:32:28.753 [info] [127.0.0.1][5aa1de21][ExtensionHostConnection] The client has reconnected.
+2025-02-28 18:21:57.146 [warning] No ptyHost heartbeat after 6 seconds
+2025-02-28 18:40:48.001 [info] [127.0.0.1][e3db1f5a][ManagementConnection] The client has reconnected.
+2025-02-28 18:40:48.631 [info] [127.0.0.1][5aa1de21][ExtensionHostConnection] The client has reconnected.
+2025-02-28 19:33:22.863 [info] [127.0.0.1][e3db1f5a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-28 19:33:23.671 [info] [127.0.0.1][5aa1de21][ExtensionHostConnection] <948> Extension Host Process exited with code: 0, signal: null.

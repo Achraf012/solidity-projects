@@ -1,0 +1,32 @@
+[Info  - 2:58:15 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 2:58:15 PM] env: production
+[Info  - 2:58:15 PM] Client starting
+[Info  - 2:58:17 PM] Language server starting
+[Info  - 2:58:17 PM]   Release: hardhat-solidity@0.8.10
+[Info  - 2:58:17 PM]   Environment: production
+[Info  - 2:58:17 PM]   Telemetry Enabled: false
+[Info  - 2:58:17 PM]   Telemetry Tracking Id: 2b342df0ea...
+[Info  - 2:58:17 PM]   Workspace Folders:
+[Info  - 2:58:17 PM]     solidity-projects (file:///home/achraf/solidity-projects)
+[Info  - 2:58:17 PM] Fetching latest solidity versions
+[Info  - 2:58:17 PM] Language server ready
+[Info  - 2:58:18 PM] [indexing] Found projects:
+[Info  - 2:58:18 PM] [indexing] -  Type: Hardhat
+[Info  - 2:58:18 PM] [indexing]    Base path: /home/achraf/solidity-projects
+[Info  - 2:58:18 PM] [indexing]    Config file: /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 2:58:18 PM] [indexing] Initializing /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 2:58:18 PM] [solidity-projects] Local HRE loaded
+[Info  - 2:58:18 PM] [indexing] Done /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 2:58:18 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 2:58:19 PM] [indexing] Scan complete, 21 sol files found
+[Info  - 2:58:19 PM] [indexing] Analyzing 1 solidity files
+[Info  - 2:58:19 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 2:58:19 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 2:58:20 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 2:58:21 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 3:02:30 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 3:02:30 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 3:02:54 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 3:02:54 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 3:03:36 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.
+[Info  - 3:03:36 PM] No Slang-supported version (latest: 0.8.26) for Solidity found that satisfies the pragma directives: '^0.8.28'.

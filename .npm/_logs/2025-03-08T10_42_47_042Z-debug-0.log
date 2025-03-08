@@ -1,0 +1,31 @@
+0 verbose cli /home/achraf/.nvm/versions/node/v18.20.5/bin/node /home/achraf/.nvm/versions/node/v18.20.5/bin/npm
+1 info using npm@10.9.2
+2 info using node@v18.20.5
+3 silly config load:file:/home/achraf/.nvm/versions/node/v18.20.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/achraf/solidity-projects/.npmrc
+5 silly config load:file:/home/achraf/.npmrc
+6 silly config load:file:/home/achraf/.nvm/versions/node/v18.20.5/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/achraf/.npm/_logs/2025-03-08T10_42_47_042Z-
+10 verbose logfile /home/achraf/.npm/_logs/2025-03-08T10_42_47_042Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2073559040 maxSize:518389760 maxEntrySize:259194880
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/home/achraf/solidity-projects/package.json'
+17 error code ENOENT
+18 error syscall open
+19 error path /home/achraf/solidity-projects/package.json
+20 error errno -2
+21 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/achraf/solidity-projects/package.json'
+22 error enoent This is related to npm not being able to find a file.
+22 error enoent
+23 verbose cwd /home/achraf/solidity-projects
+24 verbose os Linux 5.15.167.4-microsoft-standard-WSL2
+25 verbose node v18.20.5
+26 verbose npm  v10.9.2
+27 verbose exit -2
+28 verbose code -2
+29 error A complete log of this run can be found in: /home/achraf/.npm/_logs/2025-03-08T10_42_47_042Z-debug-0.log

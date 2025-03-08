@@ -1,0 +1,22 @@
+[Info  - 1:44:16 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 1:44:16 PM] env: production
+[Info  - 1:44:18 PM] Client starting
+[Info  - 1:44:21 PM] Language server starting
+[Info  - 1:44:21 PM]   Release: hardhat-solidity@0.8.10
+[Info  - 1:44:21 PM]   Environment: production
+[Info  - 1:44:21 PM]   Telemetry Enabled: false
+[Info  - 1:44:21 PM]   Telemetry Tracking Id: 2b342df0ea...
+[Info  - 1:44:21 PM]   Workspace Folders:
+[Info  - 1:44:21 PM]     solidity-projects (file:///home/achraf/solidity-projects)
+[Info  - 1:44:21 PM] Fetching latest solidity versions
+[Info  - 1:44:25 PM] Language server ready
+[Info  - 1:44:27 PM] [indexing] Found projects:
+[Info  - 1:44:27 PM] [indexing] -  Type: Hardhat
+[Info  - 1:44:28 PM] [indexing]    Base path: /home/achraf/solidity-projects
+[Info  - 1:44:28 PM] [indexing]    Config file: /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 1:44:28 PM] [indexing] Initializing /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 1:44:29 PM] [solidity-projects] Local HRE loaded
+[Info  - 1:44:29 PM] [indexing] Done /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 1:44:29 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 1:44:29 PM] [indexing] Scan complete, 196 sol files found
+[Info  - 1:44:29 PM] [indexing] Analyzing 2 solidity files

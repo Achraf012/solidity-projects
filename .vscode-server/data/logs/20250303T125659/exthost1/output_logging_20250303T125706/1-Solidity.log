@@ -1,0 +1,28 @@
+[Info  - 12:57:07 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 12:57:07 PM] env: production
+[Info  - 12:57:08 PM] Client starting
+[Info  - 12:57:15 PM] Language server starting
+[Info  - 12:57:15 PM]   Release: hardhat-solidity@0.8.10
+[Info  - 12:57:15 PM]   Environment: production
+[Info  - 12:57:15 PM]   Telemetry Enabled: false
+[Info  - 12:57:15 PM]   Telemetry Tracking Id: 2b342df0ea...
+[Info  - 12:57:15 PM]   Workspace Folders:
+[Info  - 12:57:15 PM]     solidity-projects (file:///home/achraf/solidity-projects)
+[Info  - 12:57:15 PM] Fetching latest solidity versions
+[Info  - 12:57:16 PM] Language server ready
+[Info  - 12:57:16 PM] [indexing] Found projects:
+[Info  - 12:57:16 PM] [indexing] -  Type: Hardhat
+[Info  - 12:57:16 PM] [indexing]    Base path: /home/achraf/solidity-projects
+[Info  - 12:57:16 PM] [indexing]    Config file: /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 12:57:16 PM] [indexing] Initializing /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 12:57:22 PM] [solidity-projects] Local HRE loaded
+[Info  - 12:57:22 PM] [indexing] Done /home/achraf/solidity-projects/hardhat.config.js
+[Info  - 12:57:22 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 12:57:22 PM] [indexing] Scan complete, 22 sol files found
+[Info  - 12:57:22 PM] [indexing] Analyzing 2 solidity files
+[Info  - 4:38:18 PM] Telemetry disabled
+[Info  - 4:38:19 PM] Telemetry disabled
+[Info  - 4:39:54 PM] Telemetry disabled
+[Info  - 4:40:00 PM] Telemetry disabled
+[Info  - 4:40:00 PM] Telemetry disabled
+[Info  - 4:40:35 PM] Telemetry disabled

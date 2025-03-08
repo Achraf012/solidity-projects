@@ -1,0 +1,13 @@
+2025-02-27 21:21:23.670 [info] 
+
+
+
+
+2025-02-27 21:21:23.696 [info] Extension host agent started.
+2025-02-27 21:21:24.379 [info] [127.0.0.1][5b4b677f][ManagementConnection] New connection established.
+2025-02-27 21:21:25.770 [info] [127.0.0.1][278dbff6][ExtensionHostConnection] New connection established.
+2025-02-27 21:21:26.558 [info] [127.0.0.1][278dbff6][ExtensionHostConnection] <867> Launched Extension Host Process.
+2025-02-27 21:21:36.825 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-02-27 21:21:46.819 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-02-27 21:28:08.496 [info] [127.0.0.1][5b4b677f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-27 21:28:11.067 [info] [127.0.0.1][278dbff6][ExtensionHostConnection] <867> Extension Host Process exited with code: 0, signal: null.

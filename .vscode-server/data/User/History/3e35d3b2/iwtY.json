@@ -1,0 +1,30 @@
+{
+  "name": "solidity-projects",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This repository contains Solidity-based smart contracts and projects. It is set up with Hardhat for development, testing, and deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test", // Fixed the test command to use Hardhat
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost" // Added deploy script
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Achraf012/solidity-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achraf012/solidity-projects/issues"
+  },
+  "homepage": "https://github.com/Achraf012/solidity-projects#readme",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0",
+    "hardhat": "^2.12.0" // Make sure Hardhat is listed as a devDependency
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0"
+  }
+}

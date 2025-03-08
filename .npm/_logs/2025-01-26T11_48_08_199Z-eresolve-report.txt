@@ -1,0 +1,25 @@
+'Log files:
+/home/achraf/.npm/_logs/2025-01-26T11_48_08_199Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: undefined@undefined
+Found: hardhat@0.0.7
+node_modules/hardhat
+  dev hardhat@"^0.0.7" from the root project
+
+Could not resolve dependency:
+peer hardhat@"^2.0.0" from @nomicfoundation/hardhat-ethers@3.0.8
+node_modules/@nomicfoundation/hardhat-ethers
+  peer @nomicfoundation/hardhat-ethers@"^3.0.0" from @nomicfoundation/hardhat-toolbox@5.0.0
+  node_modules/@nomicfoundation/hardhat-toolbox
+    dev @nomicfoundation/hardhat-toolbox@"*" from the root project
+  peer @nomicfoundation/hardhat-ethers@"^3.0.0" from @nomicfoundation/hardhat-chai-matchers@2.0.8
+  node_modules/@nomicfoundation/hardhat-chai-matchers
+    peer @nomicfoundation/hardhat-chai-matchers@"^2.0.0" from @nomicfoundation/hardhat-toolbox@5.0.0
+    node_modules/@nomicfoundation/hardhat-toolbox
+      dev @nomicfoundation/hardhat-toolbox@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

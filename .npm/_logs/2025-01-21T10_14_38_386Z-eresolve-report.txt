@@ -1,0 +1,35 @@
+'Log files:
+/home/achraf/.npm/_logs/2025-01-21T10_14_38_386Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @nomicfoundation/hardhat-chai-matchers@2.0.8
+Found: chai@5.1.2
+node_modules/chai
+  dev chai@"^5.1.2" from the root project
+  peer chai@">= 2.1.2 < 6" from chai-as-promised@7.1.2
+  node_modules/chai-as-promised
+    chai-as-promised@"^7.1.1" from @nomicfoundation/hardhat-chai-matchers@2.0.8
+    node_modules/@nomicfoundation/hardhat-chai-matchers
+      peer @nomicfoundation/hardhat-chai-matchers@"^2.0.0" from @nomicfoundation/hardhat-toolbox@5.0.0
+      node_modules/@nomicfoundation/hardhat-toolbox
+        dev @nomicfoundation/hardhat-toolbox@"^5.0.0" from the root project
+
+Could not resolve dependency:
+peer chai@"^4.2.0" from @nomicfoundation/hardhat-chai-matchers@2.0.8
+node_modules/@nomicfoundation/hardhat-chai-matchers
+  peer @nomicfoundation/hardhat-chai-matchers@"^2.0.0" from @nomicfoundation/hardhat-toolbox@5.0.0
+  node_modules/@nomicfoundation/hardhat-toolbox
+    dev @nomicfoundation/hardhat-toolbox@"^5.0.0" from the root project
+
+Conflicting peer dependency: chai@4.5.0
+node_modules/chai
+  peer chai@"^4.2.0" from @nomicfoundation/hardhat-chai-matchers@2.0.8
+  node_modules/@nomicfoundation/hardhat-chai-matchers
+    peer @nomicfoundation/hardhat-chai-matchers@"^2.0.0" from @nomicfoundation/hardhat-toolbox@5.0.0
+    node_modules/@nomicfoundation/hardhat-toolbox
+      dev @nomicfoundation/hardhat-toolbox@"^5.0.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

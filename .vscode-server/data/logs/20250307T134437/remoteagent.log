@@ -1,0 +1,16 @@
+2025-03-07 13:44:37.176 [info] 
+
+
+
+
+2025-03-07 13:44:37.204 [info] Extension host agent started.
+2025-03-07 13:44:38.096 [info] [127.0.0.1][740985b4][ManagementConnection] New connection established.
+2025-03-07 13:44:39.617 [info] [127.0.0.1][d067a71a][ExtensionHostConnection] New connection established.
+2025-03-07 13:44:40.416 [info] [127.0.0.1][d067a71a][ExtensionHostConnection] <903> Launched Extension Host Process.
+2025-03-07 13:44:48.655 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-03-07 14:30:23.770 [info] Getting Manifest... esbenp.prettier-vscode
+2025-03-07 14:30:26.395 [info] Installing extension: esbenp.prettier-vscode {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/achraf/.vscode-server/extensions/extensions.json","external":"file:///home/achraf/.vscode-server/extensions/extensions.json","path":"/home/achraf/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.0","date":"2025-03-04T21:06:18.612Z"}}
+2025-03-07 14:30:52.363 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Internal Code: 0. Executed: true. Duration: 2314ms.
+2025-03-07 14:30:52.720 [info] Extracted extension to file:///home/achraf/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2025-03-07 14:30:52.751 [info] Renamed to /home/achraf/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0
+2025-03-07 14:30:52.849 [info] Extension installed successfully: esbenp.prettier-vscode file:///home/achraf/.vscode-server/extensions/extensions.json
